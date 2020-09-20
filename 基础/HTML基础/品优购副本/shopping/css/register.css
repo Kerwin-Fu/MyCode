@@ -1,0 +1,157 @@
+.katachi {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 84px;
+    line-height: 84px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.registerarea {
+    height: 520px;
+    margin-top: 20px;
+    border: 1px solid #dfdfdf;
+}
+
+.registerarea h3 {
+    height: 42px;
+    line-height: 42px;
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: normal;
+    border-bottom: 1px solid #dfdfdf;
+    background-color: #ececec;
+}
+
+.registerarea h3 span {
+    float: right;
+    font-size: 14px;
+}
+
+.style_red {
+    color: #b1191a;
+}
+
+.reg_form {
+    width: 650px;
+    height: 400px;
+    margin: 50px auto 0;
+}
+
+.reg_form ul li {
+    margin-bottom: 20px;
+}
+
+.reg_form ul li label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+.inp {
+    width: 240px;
+    height: 36px;
+    padding-left: 5px;
+    border: 1px solid #ededed;
+}
+
+.error {
+    padding-left: 10px;
+    color: #df3033;
+}
+
+.error_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-top: -2px;
+    background: url(../images/error.png) no-repeat;
+}
+
+.success {
+    padding-left: 10px;
+    color: green;
+}
+
+.success_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-top: -2px;
+    background: url(../images/success.png) no-repeat;
+}
+
+.safe {
+    padding-left: 166px;
+    font-size: 12px;
+    color: #bebebe;
+}
+
+.safe em {
+    display: inline-block;
+    text-align: center;
+    width: 34px;
+    height: 17px;
+}
+
+.ruo {
+    background-color: #de1111;
+    color: #fff;
+}
+
+.zhong {
+    background-color: #40b83f;
+    color: #fff;
+}
+
+.qiang {
+    background-color: #f79100;
+    color: #fff;
+}
+
+.agree {
+    padding-left: 100px;
+    margin-top: 30px;
+}
+
+.agree input {
+    vertical-align: middle;
+}
+
+.agree a {
+    padding-left: 15px;
+    color: #1ba1e6;
+}
+
+.btn {
+    width: 200px;
+    height: 34px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #b1191a;
+}
+
+
+
+.reg_form li:last-child {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.mod_copyright {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.mod_copyright a {
+    padding: 0 7px;
+    font-size: 12px;
+}
+
+.mod_copyright p {
+    margin-top: 10px;
+}

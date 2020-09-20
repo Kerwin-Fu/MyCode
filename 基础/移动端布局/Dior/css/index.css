@@ -1,0 +1,255 @@
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 75px !important;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-width: 320px;
+  max-width: 750px;
+  width: 10rem;
+  margin: 0 auto;
+  line-height: 1.5;
+  font-family: Arial, Helvetica;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+img {
+  vertical-align: middle;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 10rem;
+  height: 5.12rem;
+  background: linear-gradient(to left top, black, purple);
+}
+.header .header_title {
+  position: relative;
+  overflow: hidden;
+  width: 9.06666667rem;
+  height: 2.50666667rem;
+  margin-bottom: 0.58666667rem;
+  background-color: #fff;
+  border: 0.01333333rem solid #e7e7e7;
+  box-sizing: border-box;
+  border-radius: 0.4rem;
+}
+.header .header_title::before {
+  content: "";
+  position: absolute;
+  bottom: 0.56rem;
+  right: 0.61333333rem;
+  width: 1.46666667rem;
+  height: 0.61333333rem;
+  background: url(../images/guanzhu.png) no-repeat;
+  background-size: cover;
+}
+.header .header_title::after {
+  position: absolute;
+  content: "领券";
+  top: 0.30666667rem;
+  right: 0.8rem;
+  font-size: 0.26666667rem;
+}
+.header .header_title .logo {
+  overflow: hidden;
+  width: 9.06666667rem;
+  height: 1.01333333rem;
+  margin-top: 0.4rem;
+}
+.header .header_title .logo img {
+  float: left;
+  height: 100%;
+  margin-left: 0.37333333rem;
+}
+.header .header_title .logo h3 {
+  padding-left: 1.56rem;
+  margin-top: 0.04rem;
+  font-size: 0.26666667rem;
+  font-weight: normal;
+}
+.header .header_title .logo p {
+  padding-left: 1.56rem;
+  margin-top: 0.06666667rem;
+  font-size: 0.24rem;
+  color: #999;
+}
+.nav {
+  display: flex;
+  width: 9.04rem;
+  height: 1.17333333rem;
+  margin: 0.42666667rem auto 0;
+}
+.nav .btn {
+  flex: 1;
+  margin-left: 0.37333333rem;
+  font-size: 0.34666667rem;
+  text-align: center;
+  line-height: 1.17333333rem;
+  color: #000;
+  background-color: #fddf00;
+  border-radius: 0.2rem;
+}
+.nav .btn:first-child {
+  margin-left: 0;
+  color: #fff;
+  background-color: #003a9b;
+}
+.rec {
+  width: 8.82666667rem;
+  height: 5.44rem;
+  margin: 0.46666667rem auto 0;
+}
+.rec .rec_hd {
+  font-size: 0.49333333rem;
+}
+.rec .rec_hd span {
+  font-size: 0.30666667rem;
+  color: #999;
+}
+.rec .rec_bd {
+  display: flex;
+  height: 4.16rem;
+  margin-top: 0.58666667rem;
+}
+.rec .rec_bd .rec_obj {
+  flex: 1;
+  overflow: hidden;
+  margin-left: 0.26666667rem;
+  border: 0.01333333rem solid #e7e7e7;
+  border-radius: 0.2rem;
+}
+.rec .rec_bd .rec_obj:first-child {
+  margin-left: 0;
+}
+.rec .rec_bd .rec_obj:nth-child(2) .obj_main img {
+  width: 1.54666667rem;
+  height: 1.28rem;
+  margin: 0.37333333rem auto 0;
+}
+.rec .rec_bd .rec_obj:nth-child(3) .obj_main img {
+  width: 1.05333333rem;
+  height: 1.41333333rem;
+  margin: 0.26666667rem auto 0;
+}
+.rec .rec_bd .rec_obj .obj_main {
+  overflow: hidden;
+  width: 2.77333333rem;
+  height: 1.89333333rem;
+  background-color: #f9f9fb;
+}
+.rec .rec_bd .rec_obj .obj_main img {
+  display: block;
+  width: 0.72rem;
+  height: 1.37333333rem;
+  margin: 0.26666667rem auto 0;
+}
+.rec .rec_bd .rec_obj .flag {
+  height: 0.26666667rem;
+  width: 100%;
+  margin-top: 0.24rem;
+  margin-left: 0.2rem;
+  background: url(../images/flag.png) no-repeat;
+  background-size: contain;
+}
+.rec .rec_bd .rec_obj .text {
+  display: block;
+  width: 2.26666667rem;
+  margin: 0.18666667rem 0 0 0.29333333rem;
+  font-size: 0.30666667rem;
+  color: #000;
+}
+.rec .rec_bd .rec_obj .car {
+  width: 2.26666667rem;
+  height: 0.49333333rem;
+  line-height: 0.49333333rem;
+  font-size: 0.30666667rem;
+  font-weight: bold;
+  margin: 0 auto;
+  color: #e4007b;
+}
+.rec .rec_bd .rec_obj .car img {
+  float: right;
+  height: 100%;
+}
+.product_list {
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  width: 8.88rem;
+  margin: 0.26666667rem auto 0;
+}
+.product_list .product {
+  overflow: hidden;
+  width: 4.26666667rem;
+  height: 5.70666667rem;
+  margin-right: 0.24rem;
+  margin-bottom: 0.26666667rem;
+  border: 0.01333333rem solid #e7e7e7;
+  border-radius: 0.2rem;
+}
+.product_list .product:nth-child(2n) {
+  margin-right: 0;
+}
+.product_list .product:nth-child(2) .pro_main img {
+  width: 2.13333333rem;
+  height: 1.8rem;
+  margin: 0.66666667rem auto 0;
+}
+.product_list .product:nth-child(3) .pro_main img {
+  width: 2.13333333rem;
+  height: 1.8rem;
+  margin: 0.66666667rem auto 0;
+}
+.product_list .product:nth-child(4) .pro_main img {
+  width: 1.74666667rem;
+  height: 1.48rem;
+  margin: 0.8rem auto 0;
+}
+.product_list .product .pro_main {
+  overflow: hidden;
+  width: 4.26666667rem;
+  height: 3.14666667rem;
+  background-color: #f9f9fb;
+}
+.product_list .product .pro_main img {
+  display: block;
+  width: 0.94666667rem;
+  height: 2.14666667rem;
+  margin: 0.4rem auto 0;
+}
+.product_list .product .pro_flag {
+  height: 0.26666667rem;
+  width: 100%;
+  margin-top: 0.24rem;
+  margin-left: 0.2rem;
+  background: url(../images/flag.png) no-repeat;
+  background-size: contain;
+}
+.product_list .product .pro_text {
+  display: block;
+  width: 3.42666667rem;
+  margin: 0.18666667rem 0.37333333rem 0 0.37333333rem;
+  font-size: 0.30666667rem;
+  color: #000;
+}
+.product_list .product .pro_car {
+  width: 3.53333333rem;
+  height: 0.49333333rem;
+  line-height: 0.62666667rem;
+  font-size: 0.30666667rem;
+  font-weight: bold;
+  margin: 0 auto;
+  color: #e4007b;
+}
+.product_list .product .pro_car img {
+  float: right;
+  height: 100%;
+}

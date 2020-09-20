@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var student = {
+            userName : '孙笑川',
+            id : '114514',
+            sex : 'male',
+            grade : '大四',
+            sayHi : function() {
+                alert(`Hello,你好，我是${this.userName}`)
+            }
+
+        }
+        for (var k in student) {
+        console.log(k);
+        console.log(student[k]);
+    }
+
+    student.sayHi();
+    </script>
+</body>
+</html>

@@ -1,0 +1,324 @@
+@baseFont: 75;
+
+@media screen and (min-width: 750px) {
+    html {
+        font-size: 75px !important;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 320px;
+    max-width: 750px;
+    width: 10rem;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-family: Arial, Helvetica;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    // font-size: 25rem / @baseFont;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 750rem / @baseFont;
+    height: 384rem / @baseFont;
+    background: linear-gradient(to left top, black, purple);
+
+
+    .header_title {
+        position: relative;
+        overflow: hidden;
+        width: 680rem / @baseFont;
+        height: 188rem / @baseFont;
+        margin-bottom: 44rem / @baseFont;
+        background-color: #fff;
+        border: 1rem / @baseFont solid #e7e7e7;
+        box-sizing: border-box;
+        border-radius: 30rem / @baseFont ;
+
+        &::before {
+            content: "";
+            position: absolute;
+            bottom: 42rem / @baseFont;
+            right: 46rem / @baseFont;
+            width: 110rem / @baseFont;
+            height: 46rem / @baseFont;
+            background: url(../images/guanzhu.png) no-repeat;
+            background-size: cover;
+        }
+
+        &::after {
+            position: absolute;
+            content: "领券";
+            top: 23rem / @baseFont;
+            right: 60rem / @baseFont;
+            font-size: 20rem / @baseFont;
+        }
+
+        .logo {
+            overflow: hidden;
+            width: 680rem / @baseFont;
+            height: 76rem / @baseFont;
+            margin-top: 30rem / @baseFont;
+
+            img {
+                float: left;
+                height: 100%;
+                margin-left: 28rem / @baseFont;
+            }
+
+            h3 {
+                padding-left: 117rem / @baseFont;
+                margin-top: 3rem / @baseFont;
+                font-size: 20rem / @baseFont;
+                font-weight: normal;
+            }
+
+            p {
+                padding-left: 117rem / @baseFont;
+                margin-top: 5rem / @baseFont;
+                font-size: 18rem / @baseFont;
+                color: #999;
+            }
+        }
+    }
+}
+
+.nav {
+    display: flex;
+    width: 678rem / @baseFont;
+    height: 88rem / @baseFont;
+    margin: 32rem / @baseFont auto 0;
+
+    .btn {
+        flex: 1;
+        margin-left: 28rem / @baseFont;
+        font-size: 26rem / @baseFont;
+        text-align: center;
+        line-height: 88rem / @baseFont;
+        color: #000;
+        background-color: #fddf00;
+        border-radius: 15rem / @baseFont;
+
+        &:first-child {
+            margin-left: 0;
+            color: #fff;
+            background-color: #003a9b;
+        }
+    }
+
+
+}
+
+.rec {
+    width: 662rem / @baseFont;
+    height: 408rem / @baseFont;
+    margin: 35rem / @baseFont auto 0;
+
+    .rec_hd {
+        font-size: 37rem / @baseFont;
+
+        span {
+            font-size: 23rem / @baseFont;
+            color: #999;
+        }
+    }
+
+    .rec_bd {
+        display: flex;
+        height: 312rem / @baseFont;
+        margin-top: 44rem / @baseFont;
+
+        .rec_obj {
+            flex: 1;
+            overflow: hidden;
+            margin-left: 20rem / @baseFont;
+            border: 1rem / @baseFont solid #e7e7e7;
+            border-radius: 15rem / @baseFont;
+
+            &:first-child {
+                margin-left: 0;
+            }
+
+            &:nth-child(2) {
+                .obj_main {
+                    img {
+                        width: 116rem / @baseFont;
+                        height: 96rem / @baseFont;
+                        margin: 28rem / @baseFont auto 0;
+                    }
+                }
+            }
+
+            &:nth-child(3) {
+                .obj_main {
+                    img {
+                        width: 79rem / @baseFont;
+                        height: 106rem / @baseFont;
+                        margin: 20rem / @baseFont auto 0;
+                    }
+                }
+            }
+
+            .obj_main {
+                overflow: hidden;
+                width: 208rem / @baseFont;
+                height: 142rem / @baseFont;
+                background-color: #f9f9fb;
+
+
+                img {
+                    display: block;
+                    width: 54rem / @baseFont;
+                    height: 103rem / @baseFont;
+                    margin: 20rem / @baseFont auto 0;
+                }
+            }
+
+            .flag {
+                height: 20rem / @baseFont;
+                width: 100%;
+                margin-top: 18rem / @baseFont;
+                margin-left: 15rem / @baseFont;
+                background: url(../images/flag.png) no-repeat;
+                background-size: contain;
+            }
+
+            .text {
+                display: block;
+                width: 170rem / @baseFont;
+                margin: 14rem / @baseFont 0 0 22rem / @baseFont;
+                font-size: 23rem / @baseFont;
+                color: #000;
+            }
+
+            .car {
+                width: 170rem / @baseFont;
+                height: 37rem / @baseFont;
+                line-height: 37rem / @baseFont;
+                font-size: 23rem / @baseFont;
+                font-weight: bold;
+                margin: 0 auto;
+                color: #e4007b;
+
+                img {
+                    float: right;
+                    height: 100%;
+                }
+            }
+        }
+    }
+
+}
+
+.product_list {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    width: 666rem / @baseFont;
+    margin: 20rem / @baseFont auto 0;
+
+    .product {
+        overflow: hidden;
+        width: 320rem / @baseFont;
+        height: 428rem / @baseFont;
+        margin-right: 18rem / @baseFont;
+        margin-bottom: 20rem / @baseFont;
+        border: 1rem / @baseFont solid #e7e7e7;
+        border-radius: 15rem / @baseFont;
+
+        &:nth-child(2n) {
+            margin-right: 0;
+        }
+
+        &:nth-child(2) {
+            .pro_main {
+                img {
+                    width: 160rem / @baseFont;
+                    height: 135rem / @baseFont;
+                    margin: 50rem / @baseFont auto 0;
+                }
+            }
+        }
+
+        &:nth-child(3) {
+            .pro_main {
+                img {
+                    width: 160rem / @baseFont;
+                    height: 135rem / @baseFont;
+                    margin: 50rem / @baseFont auto 0;
+                }
+            }
+        }
+
+        &:nth-child(4) {
+            .pro_main {
+                img {
+                    width: 131rem / @baseFont;
+                    height: 111rem / @baseFont;
+                    margin: 60rem / @baseFont auto 0;
+                }
+            }
+        }
+
+        .pro_main {
+            overflow: hidden;
+            width: 320rem / @baseFont;
+            height: 236rem / @baseFont;
+            background-color: #f9f9fb;
+
+            img {
+                display: block;
+                width: 71rem / @baseFont;
+                height: 161rem / @baseFont;
+                margin: 30rem / @baseFont auto 0;
+            }
+        }
+
+        .pro_flag {
+            height: 20rem / @baseFont;
+            width: 100%;
+            margin-top: 18rem / @baseFont;
+            margin-left: 15rem / @baseFont;
+            background: url(../images/flag.png) no-repeat;
+            background-size: contain;
+        }
+
+        .pro_text {
+            display: block;
+            width: 257rem / @baseFont;
+            margin: 14rem / @baseFont 28rem / @baseFont 0 28rem / @baseFont;
+            font-size: 23rem / @baseFont;
+            color: #000;
+        }
+
+        .pro_car {
+            width: 265rem / @baseFont;
+            height: 37rem / @baseFont;
+            line-height: 47rem / @baseFont;
+            font-size: 23rem / @baseFont;
+            font-weight: bold;
+            margin: 0 auto;
+            color: #e4007b;
+
+            img {
+                float: right;
+                height: 100%;
+            }
+        }
+    }
+}

@@ -1,0 +1,137 @@
+.sk {
+    position: absolute;
+    top: 41px;
+    left: 186px;
+    width: 71px;
+    height: 32px;
+    padding: 3px 0 0 14px;
+    border-left: 1px solid #b1191a;
+}
+
+.nav .katachi {
+    line-height: 47px;
+    overflow: hidden;
+}
+
+.nav_sk {
+    float: left;
+}
+
+.nav_con {
+    float: left;
+}
+
+.nav_sk li {
+    float: left;
+}
+
+.nav_sk li a {
+    padding: 0 28px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+.nav_con li {
+    float: left;
+}
+
+.nav_con li a {
+    font-size: 14px;
+    padding: 23px;
+}
+
+
+.icon_down::after {
+    content: "\e91e";
+    font-family: "icomoon";
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+
+
+
+.goods {
+    position: relative;
+    top: 0;
+    float: left;
+    width: 288px;
+    height: 470px;
+    margin-right: 13px;
+    margin-top: 20px;
+    transition: top .3s;
+}
+
+.goods:hover {
+    position: relative;
+    top: -5px;
+    box-shadow: 0px 15px 15px 2px rgba(0, 0, 0, .2);
+}
+
+.title {
+    font-size: 14px;
+    color: #666;
+    font-weight: normal;
+    padding: 10px;
+}
+
+.price {
+    padding: 0 10px;
+}
+
+.price em {
+    font-size: 22px;
+    color: #e60012;
+}
+
+.price s {
+    font-size: 14px;
+    font-weight: normal;
+    color: #a4a4a4;
+}
+
+.progress {
+    padding: 0 10px;
+}
+
+.bar {
+    display: inline-block;
+    width: 130px;
+    height: 10px;
+    border: 1px solid #b1191a;
+    vertical-align: middle;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+.bar_in {
+    width: 27%;
+    height: 8px;
+    padding-left: 2px;
+    background-color: #f24349;
+}
+
+.progress em,
+.progress i {
+    color: #f24349;
+}
+
+.buy {
+    position: absolute;
+    bottom: 10px;
+    left: 14.5px;
+    width: 90%;
+    height: 50px;
+    background-color: #b1191a;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.buy:hover {
+    color: #fff;
+}

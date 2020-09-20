@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: block;
+    background-color: #f7f7f7;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.katachi {
+    width: 1176px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 28px;
+    background-color: #009b73;
+}
+
+.header_list {
+    height: 28px;
+    line-height: 28px;
+}
+
+.header_list ul li {
+    float: right;
+
+    font-size: 12px;
+    border-left: 1px solid #46b389;
+}
+
+.header_list ul li a {
+    display: block;
+    margin: 0 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.header_two_outer {
+    height: 78px;
+    background-color: #fff;
+}
+
+.header_two_inner {
+    height: 78px;
+    line-height: 78px;
+}
+
+.header_two_inner img {
+    float: left;
+    margin: 29.5px 0;
+}
+
+.header_two_inner ul {
+    height: 78px;
+}
+
+.header_two_inner ul li {
+    float: right;
+    padding: 0 20px;
+}
+
+.header_two_inner ul li a {
+    color: #7d7c7a;
+    font-size: 14px;
+}
+
+.header_two_inner ul li a:hover {
+    border-bottom: 2px solid #009b73;
+}
+
+
+
+
+
+
+.theme {
+    height: 790px;
+}
+
+.theme_title {
+    height: 52px;
+}
+
+.theme_phones {
+    height: 738px;
+}
+
+.theme_phones_left {
+    float: left;
+    width: 770px;
+    height: 738px;
+}
+
+.theme_phones_left_up {
+    float: left;
+    width: 770px;
+    height: 364px;
+    background-color: #fff;
+}
+
+.theme_phones_left_down {
+    float: left;
+    margin-top: 10px;
+    width: 770px;
+    height: 364px;
+    background-color: #fff;
+}
+
+.theme_phones_right {
+    float: right;
+    width: 396px;
+    height: 738px;
+    background-color: #fff;
+}
+
+
+
+
+.oppo_product {
+    height: 537px;
+}
+
+.oppo_product_title_one {
+    height: 124px;
+    text-align: center;
+}
+
+.oppo_product_title_one h3 {
+    height: 124px;
+    line-height: 194px;
+    font-size: 20px;
+    font-weight: normal;
+
+}
+
+
+.oppo_product_title_two {
+    height: 50px;
+}
+
+.oppo_product_title_two strong {
+    height: 50px;
+    line-height: 50px;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.oppo_product_title_two span {
+    color: #787677;
+    padding: 0 20px;
+}
+
+
+.oppo_product_list {
+    height: 363px;
+}
+
+.phones {
+    float: left;
+    margin-right: 10px;
+    height: 363px;
+    width: 286px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.phones a {
+    display: block;
+    color: #000;
+}
+
+.phones a img {
+    width: 50%;
+    margin-top: 60px;
+}
+
+.phone_two a img {
+    margin-top: 65.6px;
+}
+
+.phone_one a h5,
+.phone_two a h5,
+.phone_three a h5 {
+    margin-top: 35px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: normal;
+
+}
+
+.phone_one a p,
+.phone_two a p,
+.phone_three a p {
+    font-size: 12px;
+    color: #adadad;
+}
+
+.special {
+    height: 412px;
+}
+
+.special_title {
+    height: 112px;
+    text-align: center;
+}
+
+.special_title h3 {
+    height: 112px;
+    line-height: 156px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.special_pics {
+    height: 300px;
+    background-color: #fff;
+}
+
+.special_pics a {
+    float: left;
+    margin-right: 10px;
+    width: 583px;
+    height: 300px;
+}
+
+#pic_two {
+    margin: 0;
+}
+
+.footer {
+    height: 474px;
+}
+
+.footer_about {
+    height: 177px;
+    margin-top: 172px;
+}
+
+.service {
+    float: right;
+    height: 177px;
+    width: 200px;
+    overflow: hidden;
+}
+
+.service a {
+    display: block;
+}
+
+.service a img {
+    float: right;
+}
+
+.number {
+    float: right;
+    margin-top: 35px;
+    font-size: 29px;
+    font-weight: normal;
+}
+
+.service p {
+    float: right;
+    margin-right: 10px;
+}
+
+.more {
+    float: left;
+    width: 976px;
+    height: 177px;
+}
+
+.more dl {
+    float: left;
+    margin-right: 150px;
+}

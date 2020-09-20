@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: block;
+    background-color: #fff;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.katachi {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.head {
+    height: 120px;
+}
+
+.top_guide_one {
+    height: 40px;
+    background-color: #333;
+}
+
+.top_guide_one_left {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+
+.top_guide_one_left ul li {
+    float: left;
+
+}
+
+.top_guide_one_left ul li a {
+    color: #b0b0b0;
+    font-size: 12px;
+    padding: 0 8px;
+    border-left: 1px solid #3f3f3f;
+}
+
+.top_guide_one_left ul li a:hover {
+    color: white;
+}
+
+.top_guide_one_right {
+    float: right;
+    height: 40px;
+    line-height: 40px;
+}
+
+.top_guide_one_right ul li {
+    float: right;
+
+}
+
+.top_guide_one_right ul li a {
+    color: #b0b0b0;
+    font-size: 12px;
+    padding: 0 8px;
+    border-left: 1px solid #3f3f3f;
+}
+
+.top_guide_one_right ul li a:hover {
+    color: white;
+}
+
+#good_cart {
+    border-left: 0;
+
+}
+
+#xiaomi_store {
+    border-left: 0;
+
+}
+
+#login {
+    border-left: 0;
+
+}
+
+/* 顶部导航二 */
+
+.top_guide_two {
+    height: 100px;
+    background-color: #ffffff;
+}
+
+.xiaomi_logo {
+    float: left;
+    margin-top: 22px;
+}
+
+.logo_two {
+    float: left;
+    margin-top: 22px;
+    margin-left: 15px;
+}
+
+.top_guide_two_list {
+    float: left;
+    height: 100px;
+    line-height: 100px;
+}
+
+.top_guide_two_list ul li {
+    float: left;
+
+}
+
+.top_guide_two_list ul li a {
+    color: black;
+    padding: 26px 10px 38px 10px;
+}
+
+.top_guide_two_list ul li a:hover {
+    color: #ff6700;
+}
+
+.top_guide_two_search {
+    float: right;
+    height: 50px;
+    width: 300px;
+    margin-top: 22px;
+}
+
+.search_logo {
+    width: 48px;
+    height: 48px;
+    float: right;
+    border: 1px solid #e0e0e0;
+}
+
+.search_input {
+    float: right;
+}
+
+.search_input input {
+    padding-left: 10px;
+    float: right;
+    height: 48px;
+    width: 236px;
+    border: 1px solid #e0e0e0;
+    border-right: 0;
+}
+
+.banner_out {
+    height: 460px;
+    background-color: #ffffff;
+}
+
+.banner_in {
+    height: 460px;
+    background: url(Pic/雷军公开演讲.png);
+    background-size: cover;
+}
+
+.banner_subnav {
+    float: left;
+    width: 238px;
+    height: 460px;
+    background-color: rgb(0, 0, 0, .35)
+}
+
+.banner_subnav ul {
+    padding: 20px 0 20px 0;
+}
+
+.banner_subnav ul li {
+    height: 42px;
+    line-height: 42px;
+
+}
+
+.banner_subnav ul li a {
+    display: block;
+    color: white;
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.banner_subnav ul li a span {
+    float: right;
+    font-weight: bold;
+    margin-right: 20px;
+
+}
+
+.banner_subnav ul li:hover {
+    background-color: #ff6700;
+}
+
+.product_list {
+    height: 184px;
+    background-color: #ffffff;
+}
+
+.product_list_in {
+    height: 170px;
+    padding-top: 14px;
+}
+
+.product_list_left {
+    float: left;
+    height: 170px;
+    width: 238px;
+    background-color: #5f5750;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.home_channel_list {
+    padding: 3px;
+}
+
+.product_list_left ul li {
+    float: left;
+    height: 82px;
+    width: 70px;
+    padding: 0 3px 0 3px;
+    border-top: 1px solid #665e57;
+    border-left: 1px solid #665e57;
+}
+
+.product_list_left ul li a {
+    display: block;
+    padding-top: 18px;
+    color: #c9c6c4;
+    font-size: 12px;
+}
+
+.product_list_left ul li a img {
+    margin: 0 23px 4px;
+}
+
+.product_list_left ul li a span {
+    display: inline-block;
+    padding: 0 11px;
+}
+
+#mifan_card {
+    padding: 0 17px;
+}
+
+.product_list_left ul li a:hover {
+    color: #fff;
+}
+
+.product_list_right {
+    float: right;
+    height: 170px;
+    width: 962px;
+}
+
+.product_list_right li {
+    float: right;
+    margin-left: 10px;
+
+}
+
+.quickly_shop {
+    background-color: #f5f5f5;
+    height: 400px;
+    margin-top: 25px;
+}
+
+.quickly_shop_in {
+    height: 60px;
+    line-height: 60px;
+}
+
+.quickly_shop_in h2 {
+    font-weight: 100;
+    font-size: 22px;
+}

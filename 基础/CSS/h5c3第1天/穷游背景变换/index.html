@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            overflow: hidden;
+            position: relative;
+            width: 275px;
+            height: 185px;
+        }
+
+        div::after {
+            position: absolute;
+            display: block;
+            top: 20px;
+            right: -524px;
+            content: "";
+            width: 500px;
+            height: 500px;
+            transform: rotate(45deg);
+            background-color: rgba(47, 214, 133, .75);
+            transition: all .3s;
+        }
+
+        div:hover::after {
+            top: -120px;
+            right: -185px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <a href="#"><img src="bgi.jpg" alt=""></a>
+    </div>
+
+</body>
+
+</html>

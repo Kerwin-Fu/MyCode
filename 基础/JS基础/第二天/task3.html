@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var username = '张三疯';
+        var age = '120';
+        var height = '180cm';
+        var weight = '75kg';
+   var str = `<table border=1px cellspacing=0 align=center width=500px>`;
+      str += `<tr>`;
+        str += `<td>姓名</td>`;
+        str += `<td>年龄</td>`;
+        str +=  `<td>身高</td>`;
+        str +=  `<td>体重</td>`;
+        str +=  `</tr>`;
+        str +=  `<tr>`;
+        str +=  `<td>${username}</td>`;
+        str += `<td>${age}</td>`;
+        str +=  `<td>${height}</td>`;
+        str +=  `<td>${weight}</td>`;
+        str +=  `</tr>`;
+        str +=  `</table>`;
+        document.write(str);
+</script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+
+        function prime() {
+            var num = prompt('请输入一个整数')
+            if (num == 2) {
+                return `是质数`;
+            } else if (num != 0 && num != 1) {
+                for (var i = 2; i < num; i++) {
+                    if (num % i == 0) {
+                        return `不是质数`;
+                    }
+                    else {
+                        return `是质数`;
+                    }
+
+                }
+            } else {
+                return `不是质数`;
+            }
+        }
+
+        alert(prime());
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,136 @@
+.katachi {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    background: url(../images/banner_bg.jpg) no-repeat;
+    background-size: 100%;
+}
+
+.header {
+    height: 64px;
+    transition: all .5s;
+}
+
+.logo {
+    float: left;
+    width: 156px;
+    height: 64px;
+}
+
+.logo a {
+    display: block;
+    width: 156px;
+    height: 64px;
+    font-size: 0;
+}
+
+.logo a img {
+
+    width: 50%;
+    height: 50%;
+    margin-top: 20px;
+}
+
+.header:hover {
+    background-color: #000;
+}
+
+.nav {
+    float: right;
+}
+
+.nav ul {
+    float: right;
+}
+
+.nav ul li {
+    position: relative;
+    float: left;
+    margin-left: 30px;
+
+}
+
+.nav ul li a {
+    display: block;
+    height: 64px;
+    padding: 0 10px;
+    text-align: center;
+    line-height: 64px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.nav ul li a::after {
+    position: absolute;
+    content: "";
+    opacity: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    transform: scale(0);
+    background-color: #fff;
+    transition: all .3s;
+}
+
+.nav ul li a:hover::after {
+    opacity: 1;
+    transform: scale(1);
+
+}
+
+.nav ul .nav1 a::after {
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+.earth {
+    position: relative;
+    height: 800px;
+}
+
+.earth img {
+    position: absolute;
+    left: 210px;
+    top: -23px;
+}
+
+.roll1 {
+    position: absolute;
+    top: -20px;
+    left: 215px;
+    width: 719px;
+    height: 719px;
+    background: url(../images/spr_bannerPathway.png) no-repeat -2436px 0;
+    animation: roll 30s linear infinite;
+}
+
+@keyframes roll {
+    0% {}
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.roll2 {
+    position: absolute;
+    top: -2px;
+    left: 249px;
+    background: url(../images/spr_bannerPathway.png) no-repeat -2436px -724px;
+    width: 648px;
+    height: 674px;
+    animation: roll2 10s linear infinite;
+}
+
+@keyframes roll2 {
+    0% {}
+
+    100% {
+        transform: rotate(-360deg);
+    }
+}

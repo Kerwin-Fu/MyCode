@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            perspective: 800px;
+        }
+
+        header {
+            position: relative;
+            width: 1000px;
+            height: 600px;
+            margin: 50px auto;
+            transform-style: preserve-3d;
+            animation: move 8s linear infinite;
+        }
+
+
+        @keyframes move {
+            0% {}
+
+            100% {
+                transform: rotateX(-360deg) rotateY(360deg);
+            }
+        }
+
+        div {
+            position: absolute;
+            top: 20%;
+            left: 37.5%;
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+        }
+
+        div:nth-child(2) {
+            transform: rotateX(90deg) translateY(-100px) translateZ(-100px);
+            background-color: ;
+            background-color: gray;
+        }
+
+        div:nth-child(3) {
+            transform: rotateX(90deg) translateY(-100px) translateZ(100px);
+            background-color: red;
+        }
+
+        div:nth-child(4) {
+            transform: translateZ(-200px);
+            background-color: chocolate;
+        }
+
+        div:nth-child(5) {
+            transform: rotateY(90deg) translateX(100px) translateZ(-100px);
+            background-color: green;
+        }
+
+        div:nth-child(6) {
+            transform: rotateY(90deg) translateX(100px) translateZ(100px);
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </header>
+</body>
+
+</html>

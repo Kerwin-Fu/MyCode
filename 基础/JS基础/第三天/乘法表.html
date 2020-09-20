@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            width: 600px;
+            border: 1px solid #000;
+            /* 合并表格的边框线 */
+            border-collapse: collapse;
+            margin: 0 auto;
+        }
+
+        td {
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        var str = '<table>';
+        for (var i = 1; i <= 9; i++) {
+            str += '<tr>';
+            for (var j = 1; j <= i; j++) {
+                str += `<td>${j}x${i}=${j * i}</td>`;
+            }
+            str += '</tr > ';
+        }
+        str += '</table>';
+        document.write(str);
+
+    </script>
+
+</body>
+
+</html>

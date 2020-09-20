@@ -1,0 +1,304 @@
+.main {
+    width: 980px;
+    height: 457px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.focus {
+    float: left;
+    width: 721px;
+    height: 457px;
+    background-color: rgb(201, 198, 198);
+}
+
+.focus img {
+    height: 100%;
+}
+
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 457px;
+}
+
+.news {
+    width: 250px;
+    height: 165px;
+    padding: 0 15px;
+    border: 1px solid #e4e4e4;
+}
+
+.news_hd {
+    height: 34px;
+    line-height: 34px;
+    border-bottom: 1px dotted #e4e4e4;
+}
+
+.news_hd h5 {
+    float: left;
+    font-size: 14px;
+    font-weight: normal;
+    color: #333;
+}
+
+.news_hd a {
+    float: right;
+    font-size: 11px;
+    color: #333;
+}
+
+.news_bd ul li {
+    height: 25px;
+    line-height: 25px;
+}
+
+
+.lifeservice {
+    overflow: hidden;
+    height: 209px;
+    /* background-color: purple; */
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+}
+
+
+
+.lifeservice ul {
+    width: 252px;
+}
+
+.lifeservice ul li {
+    float: left;
+    width: 63px;
+    height: 71px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+
+.lifeservice ul li i {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    background-color: pink;
+    margin-top: 12px;
+    background: url(../images/icons.png) no-repeat -19px -15px;
+}
+
+.lifeservice ul li:nth-child(2) i {
+    background-position: -79px -15px;
+}
+
+.lifeservice ul li:nth-child(3) i {
+    background-position: -141px -15px;
+}
+
+.lifeservice ul li:nth-child(4) i {
+    background-position: -205px -15px;
+}
+
+.lifeservice ul li:nth-child(5) i {
+    background-position: -17px -87px;
+}
+
+.lifeservice ul li:nth-child(6) i {
+    background-position: -77px -87px;
+}
+
+.lifeservice ul li:nth-child(7) i {
+    background-position: -143px -87px;
+}
+
+.lifeservice ul li:nth-child(8) i {
+    background-position: -205px -87px;
+}
+
+.lifeservice ul li:nth-child(9) i {
+    background-position: -16px -158px;
+}
+
+.lifeservice ul li:nth-child(10) i {
+    background-position: -79px -158px;
+}
+
+.lifeservice ul li:nth-child(11) i {
+    background-position: -140px -154px;
+}
+
+.lifeservice ul li:nth-child(12) i {
+    background-position: -205px -158px;
+}
+
+.bargain {
+    margin-top: 5px;
+    height: 78px;
+}
+
+.bargain img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.recom {
+    height: 163px;
+    margin-top: 10px;
+    background-color: rgb(212, 209, 209);
+}
+
+.recom_hd {
+    float: left;
+    width: 206px;
+    height: 163px;
+    padding-top: 31px;
+    text-align: center;
+    background-color: #5c5251;
+}
+
+.recom_bd {
+    float: left;
+    width: 994px;
+    height: 163px;
+}
+
+.recom_bd div {
+    position: relative;
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+
+.recom_bd div:nth-child(-n+3)::after {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    content: "";
+    width: 1px;
+    height: 143px;
+    background-color: #dddddd;
+}
+
+.recom_bd div a img {
+    width: 100%;
+}
+
+.floor {
+    margin-top: 30px;
+}
+
+.box_hd {
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.box_hd h5 {
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    color: #c81623;
+}
+
+.tab_list {
+    float: right;
+}
+
+.tab_list ul li {
+    float: left;
+}
+
+.tab_list ul li a {
+    padding: 0 14px;
+}
+
+.box_bd {
+    height: 361px;
+}
+
+.col_210 {
+    width: 210px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.col_210 ul li {
+    float: left;
+    width: 86px;
+    height: 33px;
+    margin: 0 6px;
+    line-height: 33px;
+
+    border-bottom: 1px solid #ededed;
+}
+
+.tab_list_items>div {
+    float: left;
+    height: 361px;
+}
+
+.col_329 {
+    width: 329px;
+}
+
+.col_221 {
+    width: 221px;
+}
+
+.col_221 img,
+.col_219 img {
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+}
+
+.col_219 {
+    width: 219px;
+}
+
+.lots_of_logos {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+.lift {
+    position: fixed;
+    top: 30%;
+    right: 50%;
+    margin-right: 610px;
+    width: 66px;
+    height: 341px;
+}
+
+
+
+.lift ul li a::after {
+    position: absolute;
+    left: 5px;
+    bottom: 0;
+    content: "";
+    width: 56px;
+    height: 1px;
+    background-color: #ededed;
+}
+
+.lift ul li:hover ::after {
+    background-color: #c81623;
+}
+
+
+.lift ul li a {
+    position: relative;
+    display: block;
+    height: 31px;
+    line-height: 31px;
+    text-align: center;
+    color: #666;
+}
+
+.lift ul li a:hover {
+    color: #fff;
+    background-color: #c81623;
+}

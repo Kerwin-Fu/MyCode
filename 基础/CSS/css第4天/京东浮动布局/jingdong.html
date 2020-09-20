@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .outer {
+            width: 1150px;
+            height: 390px;
+            margin: 100px auto;
+        }
+
+        .left,
+        .middle,
+        .right {
+            float: left;
+            width: 350px;
+            height: 390px;
+            margin-right: 50px;
+        }
+
+        .right {
+            margin-right: 0;
+        }
+
+        .left img,
+        .right img {
+            float: left;
+        }
+
+        img:nth-child(2) {
+            margin: 0 0 10px 10px;
+        }
+
+        img:nth-child(3) {
+            margin: 0 10px 0 0;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <div class="outer">
+
+        <div class="left">
+            <img src="imgs/left01.png" alt="">
+            <img src="imgs/left02.png" alt="">
+            <img src="imgs/left03.png" alt="">
+            <img src="imgs/left04.png" alt="">
+
+        </div>
+        <div class="middle">
+            <img src="imgs/center.png" alt="">
+
+        </div>
+        <div class="right">
+            <img src="imgs/right01.png" alt="">
+            <img src="imgs/right02.png" alt="">
+            <img src="imgs/right03.png" alt="">
+            <img src="imgs/right04.png" alt="">
+
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

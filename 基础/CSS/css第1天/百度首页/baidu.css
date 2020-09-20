@@ -1,0 +1,134 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: block;
+    background-color: #fff;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #4e6ef2;
+    text-decoration: none;
+}
+
+.katachi {
+    width: 700px;
+    margin: 0 auto;
+}
+
+
+.head {
+    height: 129px;
+    line-height: 129px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.search {
+    height: 420px;
+    text-align: center;
+}
+
+.search_one {
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.search_one a {
+    float: left;
+    margin-left: 50px;
+
+
+}
+
+a:hover {
+    color: #551a8b;
+    font-weight: 600;
+}
+
+#web {
+    color: black;
+}
+
+.input {
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.frame  {
+    float: left;
+    margin-left: 50px;
+}
+
+.frame input {
+    height: 45px;
+    width: 500px;
+    border: 3px solid #4e6ef2;
+    border-right: 0;
+    border-radius: 20px 0 0 20px;
+    padding-left: 10px;
+}
+
+.frame input:hover {
+    border-color: #4662d9;
+}
+
+.btn {
+    float: left;
+    height: 52px;
+    line-height: 52px;
+    width: 100px;
+    background-color: #4e6ef2;
+    margin-top: 26px;
+    border-radius: 0 15px 15px 0;
+}
+
+.btn:hover {
+    background-color: #4662d9;
+}
+
+.btn a {
+    display: block;
+    color: #fff;
+}
+
+.search_two {
+    height: 50px;
+    line-height: 50px;
+}
+
+.search_two a,span {
+    margin-left: 20px;
+
+}
+
+.web_map {
+    height: 50px;
+    line-height: 50px;
+}
+
+.bottom div a,span {
+    margin-left: 10px;
+}
+
+.bottom_two {
+    margin: 10px 0 20px 0;
+}
+
+#anime {
+    font-size: 16px;
+    transition-property:font-size 1s ;
+}
+
+#anime:hover {
+    font-size: 17px;
+}

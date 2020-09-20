@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: url(images/bg_81ab3d6.jpg) top center;
+        }
+
+        div {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 91px;
+            height: 91px;
+            cursor: pointer;
+        }
+
+        div:hover::before {
+            animation-play-state: paused;
+        }
+
+        div::before {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 100%;
+            background: url(images/index_z_9769688.png) no-repeat -221px -493px;
+            animation: scroll 1s linear infinite;
+
+        }
+
+        @keyframes scroll {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        div::after {
+            position: absolute;
+            content: "";
+            top: 50%;
+            left: 50%;
+            width: 21px;
+            height: 25px;
+            z-index: 99;
+            background: url(images/index_z_9769688.png) no-repeat -2290px -107px;
+            transform: translate(-50%, -50%);
+
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+
+    </div>
+
+</body>
+
+</html>

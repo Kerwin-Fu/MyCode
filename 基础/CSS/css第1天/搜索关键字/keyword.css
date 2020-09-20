@@ -1,0 +1,51 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.box_one,.box_two {
+    width: 800px;
+    height: 150px;
+}
+
+.box_one a h3 {
+    font-weight: normal;
+    color: #3229d2;
+    text-decoration: underline;
+}
+
+.box_one a span {
+    color: #d42e36;
+}
+
+.box_one a strong {
+    font-weight: normal;
+    color: #398558;
+}
+
+.box_one a i {
+    font-style: normal;
+    text-decoration: underline;
+    color: #a1a3a3;
+}
+
+.box_two a h3 {
+    font-weight: normal;
+    color: #3229d2;
+    text-decoration: underline;
+}
+
+.box_two a span {
+    color: #d42e36;
+}
+
+.box_two a strong {
+    font-weight: normal;
+    color: #398558;
+}
+
+.box_two a i {
+    font-style: normal;
+    text-decoration: underline;
+    color: #a1a3a3;
+}
