@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {
+            display: block;
+            margin: 100px auto;
+            width: 200px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <button id="btn">克里斯关下灯</button>
+
+    <script>
+        var bulb = document.body;
+        var btn = document.querySelector('button');
+        var hit = 1;
+        btn.onclick = function() {
+            if (hit == 1) {
+                bulb.style.backgroundColor = '#000';
+                this.innerHTML = '克里斯开下灯'
+                hit = 0;
+            } else {
+                bulb.style.backgroundColor = '#fff';
+                this.innerHTML = '克里斯关下灯'
+                hit = 1;
+            }
+        }
+    </script>
+    
+</body>
+</html>

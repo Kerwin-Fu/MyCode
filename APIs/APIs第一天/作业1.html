@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {
+            background-color: skyblue;
+            color: #fff;
+            border: none;
+            outline: none;
+            vertical-align: bottom;
+            cursor: pointer;
+
+        }
+
+        input {
+            border: 1px solid #ccc;
+            outline: none;
+            color: #ccc;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="text" value="邮箱/ID/手机号" id="text">
+    <input type="text" value="密码" id="pwd">
+    <button>登录</button>
+
+    <script>
+        var text = document.querySelector('#text');
+        var pwd = document.querySelector('#pwd');
+
+        text.onfocus = function () {
+            if (this.value == '邮箱/ID/手机号') {
+                this.value = '';
+            }
+            this.style.color = '#333'
+            this.style.borderColor = '#333'
+        }
+        text.onblur = function () {
+            if (this.value == '') {
+                this.value = '邮箱/ID/手机号';
+            }
+            this.style.color = '#ccc'
+            this.style.borderColor = '#ccc'
+        }
+
+        pwd.onfocus = function () {
+            if (this.value == '密码') {
+                this.value = '';
+            }
+            this.type = 'password'
+            this.style.color = '#333'
+            this.style.borderColor = '#333'
+        }
+        pwd.onblur = function () {
+            if (this.value.trim().length > 0) {
+                this.style.color = '#ccc'
+                this.style.borderColor = '#ccc'
+            } else {
+                this.value = '密码'
+                this.type = 'text'
+            }
+            
+            this.style.color = '#ccc'
+            this.style.borderColor = '#ccc'
+
+        }
+
+
+
+
+    </script>
+
+</body>
+
+</html>
