@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<button>按钮</button>
+<ul>
+    <li>浔阳江头夜送客</li>
+    <li>枫叶荻花秋瑟瑟</li>
+    <li>主人下马客在船</li>
+    <li>举杯欲饮无管弦</li>
+</ul>
+<body>
+<script>
+    var btn = document.querySelector('button');
+    var ul =document.querySelector('ul');
+
+    btn.addEventListener('click', function() {
+        var li =document.createElement('li');
+        li.innerHTML = '醉不成欢惨将别';
+        ul.appendChild(li);
+    })
+     
+    ul.addEventListener('click',function(e) {
+        if (e.target.nodeName.toLowerCase() === 'li') {
+            e.target.remove();
+        }
+    })
+  
+</script>
+    
+</body>
+</html>
