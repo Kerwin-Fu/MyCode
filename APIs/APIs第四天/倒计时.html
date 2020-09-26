@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .time-item {
+          width: 450px;
+          height: 45px;
+          margin: 0 auto;
+        }
+        
+        .time-item strong {
+            background: orange;
+            color: #fff;
+            line-height: 49px;
+            font-size: 36px;
+            font-family: Arial;
+            padding: 0 10px;
+            margin-right: 10px;
+            border-radius: 5px;
+            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+        }
+    
+        .time-item > span {
+            float: left;
+            line-height: 49px;
+            color: orange;
+            font-size: 32px;
+            margin: 0 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .title {
+          width: 260px;
+          height: 50px;
+          margin:200px auto 50px auto;
+        }
+      </style>
+</head>
+<body>
+    <h1 class="title">距离国庆节，还有</h1>
+  
+  <div class="time-item">
+    <span><span id="day">00</span>天</span>
+    <strong><span id="hour">00</span>时</strong>
+    <strong><span id="minute">00</span>分</strong>
+    <strong><span id="second">00</span>秒</strong>
+  </div>
+
+  <script>
+      var day = document.querySelector('#day');
+      var hour = document.querySelector('#hour');
+      var minute = document.querySelector('#minute');
+      var second = document.querySelector('#second');
+
+      function countDown(time) {
+            var nowTime = +new Date(); 
+            var inputTime = +new Date(time); 
+            var times = (inputTime - nowTime) / 1000; 
+            var d = parseInt(times / 60 / 60 / 24).toString().padStart(2,'0');
+            day.innerHTML = d
+            var h = parseInt(times / 60 / 60 % 24).toString().padStart(2,'0'); 
+            hour.innerHTML = h
+            var m = parseInt(times / 60 % 60).toString().padStart(2,'0'); 
+            minute.innerHTML = m
+            var s = parseInt(times % 60).toString().padStart(2,'0'); 
+            second.innerHTML = s
+            return d + '天' + h + '时' + m + '分' + s + '秒';
+        }
+
+        countDown('2020-11-11 8:0:0')
+
+        setInterval("countDown('2020-11-11 8:0:0')",1000)
+
+  </script>
+    
+</body>
+</html>

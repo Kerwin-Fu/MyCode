@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div></div>
+    <script>
+        var div = document.querySelector('div')
+        
+        function getTimer(content) {
+            var myDate = new Date();
+        var y = myDate.getFullYear();
+        var m = (myDate.getMonth() + 1).toString().padStart(2,'0');
+        var d = myDate.getDate().toString().padStart(2,'0');
+        var h = myDate.getHours().toString().padStart(2,'0');
+        var f = myDate.getMinutes().toString().padStart(2,'0');
+        var s = myDate.getSeconds().toString().padStart(2,'0');
+        var arr = ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'];
+        var day = myDate.getDay();
+       
+        content.innerHTML = `${y}-${m}-${d} ${arr[day]} ${h}:${f}:${s}`;
+        }
+
+        getTimer(div);
+
+        setInterval('getTimer(div)',1000)
+    </script>
+    
+</body>
+</html>
